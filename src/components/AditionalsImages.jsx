@@ -8,7 +8,7 @@ const AditionalsImages = (props) => {
     return (
         <section className='flex flex-row flex-wrap gap-5 mb-36'>
             { 
-                additionalImages && additionalImages.map((image, index) => <img src={image} alt={`Image additional by title ${title}`} key={index}/>)
+                additionalImages && additionalImages.map((image, index) => <img className='shadow-xl' src={image} alt={`Image additional by title ${title}`} key={index}/>)
             }
         </section>
     )

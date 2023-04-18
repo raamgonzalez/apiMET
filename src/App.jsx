@@ -17,7 +17,7 @@ export function App () {
     return (
         <>
             <h1 className="text__font text-4xl my-10 font-light">Api<span className="block my-2">MOMA</span></h1>
-            <button className="hover:underline" onClick={handleRandomPicture}>Random picture</button>
+            <button className="hover:underline bg-red-200 p-2 hover:scale-95" onClick={handleRandomPicture}>Random picture</button>
             <main className="m-0 flex flex-row justify-center align-top gap-20">
                 {/* <input type="text" onChange={(e) => setSearchPicture(e.target.value)} /> */}
                 {loading? <h1>Loading...</h1> : null}
@@ -26,7 +26,7 @@ export function App () {
                         <p className= "text-2xl">Title: <span className="ml-1 italic">{picture.title}</span></p>
                         <p className="text-2xl">Date: <span className="ml-1 italic">{picture.objectDate}</span></p>
                         {
-                            picture.primaryImage? <img className="my-10 italic" src={picture.primaryImage} alt={`Work done by ${picture.artistDisplayName}, by name ${picture.title} `} /> : 'No image found'
+                            picture.primaryImage? <img className="my-10 italic shadow-xl" src={picture.primaryImage} alt={`Work done by ${picture.artistDisplayName}, by name ${picture.title} `} /> : 'No image found'
                         }
                         <AditionalsImages picture={picture}/>   
                     </section>
