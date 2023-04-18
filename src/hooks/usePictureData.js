@@ -15,6 +15,6 @@ export function usePictureData(){
             })
     },[])
 
-    return {picture, loading}
+    return {picture, loading, setPicture}
 }
 
