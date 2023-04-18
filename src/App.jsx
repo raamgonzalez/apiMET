@@ -16,7 +16,7 @@ export function App () {
 
     return (
         <>
-            <h1 className="text__font text-4xl my-10 font-light">Api<span className="block my-2">MOMA</span></h1>
+            <h1 className="text__font text-4xl my-10 font-light">Api<span className="block my-2">MET</span></h1>
             <button className="hover:underline bg-red-200 p-2 hover:scale-95" onClick={handleRandomPicture}>Random picture</button>
             <main className="m-0 flex flex-row justify-center align-top gap-20">
                 {/* <input type="text" onChange={(e) => setSearchPicture(e.target.value)} /> */}

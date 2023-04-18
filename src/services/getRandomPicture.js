@@ -17,25 +17,6 @@ export const getRandomPicture = async () => {
     catch (error) {
         console.log('error', error)
     }
-
 }
-
-    // const randomIdPicture = () => {
-    //     const randomId =  () => Math.floor(Math.random() * total)
-    //     const searchPicture = objectIDs.some((id) => id === randomId())
-    //     console.log(searchPicture)
-
-    //     if(searchPicture){
-    //         return randomId()
-    //     }else{
-    //         randomIdPicture()
-    //     }
-    // }
-
-    //     const randomPicture = await fetch(`${DATABASE_ENDPOINT}/${randomIdPicture()}`)
-    //     console.log(randomPicture)
-    //     const pictureData = await randomPicture.json()
-    //     console.log(pictureData)
-    //     return pictureData
 
 
