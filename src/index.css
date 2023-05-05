@@ -35,3 +35,30 @@ main img {
     width: 100%;
     max-width: 500px;
 }
+
+@media (338px <= width <= 1280px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto 0 auto;
+    }
+    .contentartist{
+        /* margin: 0 auto; */
+        padding: 0;
+    }
+    .aditional{
+        margin: 0;
+        padding: 0;
+        max-width: 250px;
+    }
+    body{
+        margin: 0;
+        padding: 1rem;
+    }
+    .aditionalimg{
+        margin-bottom: 0;
+    }
+}
+
+
+/* .content{ */
